@@ -53,9 +53,9 @@ class Squid
     private readonly jumpPowerMultiplier      = 36.66; // Determines how powerful a jump is (higher jumpPower means higher jumps)
     private readonly startJumpPower     = 37; // The starting jump power, it will always at least jump with this amount of power
  
-    private readonly maxMovementSpeed   = 102; // The maximum amount of speed the squid can move left and right
+    private readonly maxMovementSpeed   = 100; // The maximum amount of speed the squid can move left and right
     private readonly minAcceleration    = 64; // The acceleration of the movement speed while charging
-    private readonly maxAcceleration    = 96; // The acceleration of the movement speed
+    private readonly maxAcceleration    = 92; // The acceleration of the movement speed when not charging
  
     private readonly dyingDuration      = 500; // The amount of time the death animation takes in miliseconds
     private readonly jumpSquatDuration  = 96; // The duration of the jump squat animation in miliseconds
