@@ -38,7 +38,7 @@ class LevelManager
             return 0x30306a;
         }
         else if (HUD.currentStage <= 20) {
-            return 0x0c627a;
+            return 0x033f52;
         }
         return 0x5047fa;
     };
